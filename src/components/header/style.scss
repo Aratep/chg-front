@@ -1,0 +1,261 @@
+.app-header {
+  background: #282c34 url(../../images/bristol.jpg) no-repeat center bottom;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  .app-header-top {
+    width: 100%;
+    flex: 0 0 auto;
+    background: rgba(1, 15, 42, 0.85);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .app-logo {
+    height: 100px;
+    pointer-events: none;
+    flex: 0 0 auto;
+  }
+
+  .app-header-title {
+    flex: 1 1 auto;
+  }
+
+  .app-header-title h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: 200;
+    font-size: 1.2em;
+    margin: 0 0 0.3em;
+  }
+
+  .app-header-title-text {
+    font-weight: 300;
+    letter-spacing: -0.05em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .app-header-line-text {
+    white-space: nowrap;
+  }
+
+  .app-header-line-left,
+  .app-header-line-right {
+    width: 10%;
+    border-bottom: 1px solid #B07F2E;
+    margin: 0 0.6em;
+  }
+
+  .app-header-lang {
+    flex: 0 0 auto;
+    margin: 0.5em;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+  }
+
+  .app-header-lang a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .app-header-lang select {
+    display: inline-block;
+    font-size: 1em;
+  }
+
+  .app-header-login {
+    flex: 0 0 auto;
+    margin: 0.5em;
+  }
+
+  .app-header-login a, .login {
+    display: block;
+    text-decoration: none;
+    margin: 0.5em;
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+  }
+
+  .app-header-menu {
+    flex: 1 1 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+
+  .app-header-menu-items {
+    list-style: none;
+    text-align: left;
+    margin: 0.5em 1em;
+    padding: 0;
+  }
+
+  .app-header-menu-items li {
+    line-height: 2em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+
+  .app-header-menu-items li a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .app-header-menu-container {
+    margin: 1.5em 0;
+    background-color: rgba(1, 15, 42, 0.85);
+    padding: 1em;
+  }
+
+  .app-header-menu-container h1 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: left;
+    margin: 0.5em 0.8em;
+    letter-spacing: 0.1em;
+  }
+
+  .app-header-map-container {
+    margin: 1.5em 0;
+    width: 560px;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .app-header-scores-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+  }
+
+  .app-header-booking-container {
+    margin: 1.5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .app-header-booking-block {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    background: #fff;
+    padding: 10px;
+    width: 214px;
+  }
+
+  .app-header-booking-logo {
+    background: #003580;
+    width: 234px;
+    padding: 5px 0 0;
+  }
+
+  .app-header-booking-logo img {
+    height: 25px;
+  }
+
+  .app-header-booking-score__badge {
+    background: #003580;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    vertical-align: baseline;
+    border-radius: 6px 6px 6px 0;
+    height: 32px;
+    width: 32px;
+  }
+
+  .app-header-booking-score__content {
+    margin-left: 0;
+    margin-right: 8px;
+    text-align: right;
+  }
+
+  .app-header-booking-score__title {
+    color: #003580;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  .app-header-booking-score__text {
+    color: #707070;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 4px;
+  }
+
+  .app-header-tripadvisor-container {
+    margin: 1.5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .app-header-tripadvisor-logo {
+    background: #00a680;
+    width: 234px;
+    padding: 5px 0 0;
+  }
+
+  .app-header-form {
+    flex: 0 0 auto;
+    width: 100%;
+    background: rgba(1, 15, 42, 0.85);
+  }
+
+  .app-header-form form {
+    margin: 1em;
+  }
+
+  .app-header-lang-wrap {
+    z-index: 100;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgba(42, 70, 125, 1.7);
+    position: absolute;
+    padding: 8px;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .app-header-language {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .app-header-auth {
+    position: absolute;
+    right: 50px;
+    background: rgba(236, 235, 235, 1);
+    width: 500px;
+    padding: 17px 22px;
+    box-shadow: rgb(204, 204, 204) 1px 3px 8px;
+    color: #021843;
+  }
+}
+

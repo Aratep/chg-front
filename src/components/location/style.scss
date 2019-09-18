@@ -1,0 +1,86 @@
+.hotel-location {
+  background-color: #f3f3f3 !important;
+
+  &-map-container {
+    iframe {
+      width: 100%;
+      border: none
+    }
+  }
+
+  .container {
+    background-color: white;
+    padding: 0 40px;
+
+    .editor-content {
+      padding: 20px;
+      text-align: left;
+      letter-spacing: .1px;
+      font-size: 13px;
+      color: #010F2A;
+
+      h2 {
+        font-size: 21px;
+        margin: 19px 0;
+        letter-spacing: 5px;
+        text-align: left;
+        font-weight: 100;
+      }
+
+      p {
+        letter-spacing: .1px;
+        font-size: 13px;
+        color: #010F2A;
+        word-wrap: break-word;
+        margin-bottom: 13px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .about-section {
+    background: #fff;
+    padding: 40px 40px;
+
+    .container {
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: left;
+    }
+
+    .contact-detail {
+      .address {
+        float: left;
+        text-align: left;
+      }
+
+      table {
+        font-size: 13px;
+      }
+    }
+
+    .contact-block {
+      padding-top: 20px;
+
+      p {
+        line-height: 1.8;
+        margin: 0 0 10px;
+        font-size: 13px;
+      }
+    }
+
+    .title {
+      padding-bottom: 10px;
+      font-size: 20px;
+      text-align: left;
+    }
+
+  }
+
+
+  table {
+    text-align: left;
+  }
+}

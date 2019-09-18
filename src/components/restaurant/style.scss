@@ -1,0 +1,149 @@
+.restaurant {
+  &-content-block-wrapper {
+    background-color: white;
+  }
+
+  .text-heading {
+    font-size: 18px;
+    color: #010F2A;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 24px;
+    margin-top: 50px;
+  }
+
+  .app-content-block {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0;
+
+    img {
+      float: right;
+      width: 45%;
+    }
+  }
+
+  .app-content-block-text {
+    float: left;
+    width: 50%;
+
+    p {
+      letter-spacing: .1px;
+      font-size: 13px;
+      font-family: "Helvetica", Arial, sans-serif;
+      color: #010F2A;
+      word-wrap: break-word;
+      margin-bottom: 13px;
+      margin-top: 10px;
+      text-align: left;
+      line-height: 1.8;
+    }
+  }
+
+  &-spec-offers {
+    &-card {
+      width: 41%;
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 15px;
+      margin-right: 25px;
+
+      .offer-title {
+        font-size: 18px;
+        color: #010F2A;
+        margin: 20px 0 10px 0;
+        line-height: 1.2;
+        font-weight: 300;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        max-height: 42px;
+        overflow: hidden;
+      }
+
+      .offer-subtitle {
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #4a4a4a;
+        font-size: 13px;
+      }
+
+      p {
+        letter-spacing: .1px;
+        font-size: 13px;
+        font-family: "Helvetica", Arial, sans-serif;
+        color: #010F2A;
+        word-wrap: break-word;
+        margin-bottom: 13px;
+        margin-top: 10px;
+        text-align: left;
+      }
+
+      img {
+        width: 100%
+      }
+
+      div {
+        text-align: left;
+      }
+
+      @media only screen and (max-width: 1080px) {
+        &-card {
+          width: 30% !important;
+        }
+      }
+      @media only screen and (max-width: 900px) {
+        &-card {
+          width: 25% !important;
+        }
+      }
+    }
+  }
+
+  .offers-g {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 9%;
+  }
+
+  .contacts {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 30px;
+    background-color: white;
+
+    .contact-block, .working-times {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .contact-block {
+      .title {
+        margin-bottom: 10px
+      }
+    }
+
+    .working-times {
+      div {
+        text-align: left;
+        font-size: 14px;
+      }
+    }
+
+    .contact-detail {
+      .address {
+        float: left;
+        text-align: left;
+      }
+
+      table {
+        font-size: 13px;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,81 @@
+.conference-room {
+
+  &-block-wrapper {
+    background-color: white;
+
+    .text-heading {
+      font-size: 18px;
+      color: #010F2A;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      margin-bottom: 24px;
+      margin-top: 50px;
+      text-align: left;
+    }
+  }
+
+  &-content-block {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.9);
+    img {
+      width: 48%;
+      float: right;
+    }
+  }
+
+  &-block-text {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+
+    p {
+      letter-spacing: .1px;
+      font-size: 13px;
+      color: #010F2A;
+      word-wrap: break-word;
+      margin-bottom: 13px;
+      margin-top: 10px;
+      text-align: left;
+      line-height: 1.8;
+    }
+  }
+
+  .contacts {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 30px;
+    background-color: white;
+
+    .contact-block, .working-times {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .contact-block {
+      .title {
+        margin-bottom: 10px
+      }
+    }
+    .working-times {
+      div {
+        text-align: left;
+        font-size: 14px;
+      }
+    }
+    .contact-detail {
+      .address {
+        float: left;
+        text-align: left;
+      }
+
+      table {
+        font-size: 13px;
+      }
+    }
+  }
+
+}

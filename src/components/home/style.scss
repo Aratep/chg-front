@@ -1,0 +1,133 @@
+.home-block-wrapper {
+
+  background-color: white;
+
+  .text-heading {
+    font-size: 18px;
+    color: #010F2A;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 24px;
+    margin-top: 50px;
+    text-align: left;
+  }
+
+  .home-content-block {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.9);
+
+    .home-map-container {
+      iframe {
+        border: none;
+      }
+
+      //width: 48%;
+      //float: right;
+    }
+  }
+
+  .home-block-text {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+
+    p {
+      letter-spacing: .1px;
+      font-size: 13px;
+      color: #010F2A;
+      word-wrap: break-word;
+      margin-bottom: 13px;
+      margin-top: 10px;
+      text-align: left;
+      line-height: 1.8;
+    }
+  }
+
+}
+
+.special-cards-wrapper {
+  background-color: #f3f3f3;
+  margin-bottom: -40px;
+
+  .special-cards {
+    .card {
+      width: 85%;
+      background-color: white;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      text-align: left;
+      display: flex;
+
+      img {
+        height: 150px;
+      }
+
+      p {
+        letter-spacing: .1px;
+        font-size: 13px;
+        color: #010F2A;
+        word-wrap: break-word;
+        margin-bottom: 13px;
+        margin-top: 10px;
+        text-align: left;
+        line-height: 1.8;
+        padding-right: 25px;
+      }
+
+      .title {
+        font-size: 22px;
+        font-style: italic;
+        color: #010F2A;
+        margin-top: 10px;
+        width: 95%;
+      }
+
+      .info-wrapper {
+        width: 55%;
+        padding-left: 20px;
+
+      }
+
+      .value {
+        width: 15%;
+        margin-top: 2%;
+      }
+
+      .read-more {
+        border-color: #B5A191;
+        background: #B5A191;
+        color: #fff;
+        height: 30px;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1040px) {
+    .special-cards {
+      .card {
+        display: block;
+        padding: 10px;
+
+        div {
+          margin: 0 auto;
+        }
+
+        img {
+          height: 300px;
+          width: 100%;
+        }
+
+        .info-wrapper {
+          width: 90%;
+        }
+      }
+    }
+  }
+}

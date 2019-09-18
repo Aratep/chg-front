@@ -1,0 +1,84 @@
+.special-offers {
+  .offers-wrap {
+    background: white;
+    padding: 50px;
+    .app-content-block-wrapper {
+      margin-bottom: 25px
+    }
+
+  }
+
+  .app-content-block {
+    padding: 20px;
+
+    .content-wrap {
+      background-color: white;
+      width: 80%;
+      padding-right: 25px;
+
+      .text-valid {
+        color: #010F2A;
+        float: left;
+        font-size: 14px;
+        padding-left: 50px;
+        padding-bottom: 10px;
+      }
+    }
+
+    .details-text, span {
+      width: 100%;
+      letter-spacing: .1px;
+      font-size: 13px;
+      color: #010F2A;
+      word-wrap: break-word;
+      margin-bottom: 13px;
+      margin-top: 10px;
+      line-height: 1.8;
+    }
+
+    .app-content-block-wrapper {
+
+      .title {
+        font-size: 18px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #010F2A;
+        margin-bottom: 15px;
+      }
+
+      .app-content-block {
+        float: left;
+        width: 60%;
+      }
+
+      .rate-block {
+        float: right;
+        margin-top: 40px;
+
+        .special-offer-prices {
+          font-weight: 100;
+          font-size: 24px;
+        }
+
+        .cta-btns {
+          margin-top: 30px;
+
+          .btn-readmore, .btn-book-now {
+            border-color: #B5A191;
+            background: #B5A191;
+            color: #fff;
+            height: 30px;
+            text-transform: uppercase;
+            cursor:pointer;
+          }
+        }
+
+        .offer-type-description {
+          font-size: 14px;
+          padding: 6px;
+        }
+      }
+    }
+  }
+}
+

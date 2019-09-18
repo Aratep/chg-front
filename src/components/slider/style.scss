@@ -1,0 +1,72 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.app-content-slider {
+  position: relative;
+
+  &__left,
+  &__right {
+    position: absolute;
+    top: 50%;
+    font-size: 3em;
+    font-weight: 100;
+    color: rgba(25, 25, 25, 0.4);
+    margin: -0.5em 0 0;
+    padding: 0;
+    cursor: pointer;
+    z-index: 9
+  }
+
+  &__left {
+    left: 0;
+  }
+
+  &__right {
+    right: 0;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    flex-wrap: wrap-reverse;
+    overflow: hidden;
+  }
+
+  &__block-text-wrapper {
+    text-align: left;
+    flex: 1 0 50%;
+    float: left;
+    //margin-top: 100px;
+  }
+
+  &__block-text {
+    margin: 3em;
+  }
+
+  &__block-text h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+
+  &__block-img {
+    flex: 1 0 50%;
+    width: 50%;
+    min-width: 512px;
+    float: right;
+  }
+
+  .slick-slider {
+    overflow: hidden;
+  }
+
+  @media only screen and (max-width: 1040px) {
+    &__block-img {
+      width: 100%;
+    }
+  }
+}
